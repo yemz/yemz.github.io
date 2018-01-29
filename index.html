@@ -245,44 +245,44 @@
  <div class="col-xs-12 description center">
 
 
- <!-- Form contact -->
+ <!--CONTACT FORM-->
 
-<form>
-
+<form action="https://formspree.io/your@email.com" method="POST">
     <br><br>
     <div class="input-group">
         <i class="fa fa-user prefix light-grey-text"></i>
-        <input type="text" id="form3" class="form-control" placeholder="Name">
+        <input type="text" id="form3" class="form-control" name="name" placeholder="Name">
         <label for="form3">Name</label>
     </div>
     <br>
     <div class="input-group">
         <i class="fa fa-envelope prefix light-grey-text"></i>
-        <input type="text" id="form2" class="form-control" placeholder="E-mail">
+        <input type="text" id="form2" class="form-control" name="email" placeholder="E-mail">
         <label for="form2">E-mail</label>
     </div>
     <br>
     <div class="input-group">
         <i class="fa fa-tag prefix light-grey-text"></i>
-        <input type="text" id="form32" class="form-control" placeholder="Subject">
+        <input type="text" id="form32" class="form-control" name="subject" placeholder="Subject">
         <label for="form34">Subject</label>
     </div>
    <br>
    <div class="input-group">
         <i class="fa fa-pencil grey-text"></i>
-        <textarea type="text" id="form8" class="form-control" style="height: 100px" placeholder="Your message here..."></textarea>
+        <textarea type="text" id="form8" name="message" class="form-control" style="height: 100px" placeholder="Your message here..."></textarea>
         <label for="form8">Your message</label>
     </div>
    <br>
     <div class="text-left">
-        <button class="btn">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+      <!--<input type="submit" value="Send">Send<i class="fa fa-paper-plane-o ml-1"></i>-->
+        <button type="submit" class="btn">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
     </div>
 
     <br><br>
 </form>
 
 
-<!-- Form contact -->
+<!--END CONTACT FORM-->
             
 
 </div>
