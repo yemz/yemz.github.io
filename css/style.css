@@ -1,126 +1,182 @@
-   body{
+body{
      background-color: #2d2c2c;
      color: lightgray;
      font-family: 'Montserrat', sans-serif;
-   }
+ }
 
-   .heading {
+.heading {
      letter-spacing: 3px;
-   }
+    }
 
-   /*Navigation*/
+/* NAVIGATION */
 
-   .navbar brand {
+.navbar brand {
      font-family: 'Montserrat', sans-serif;
-   }
+    }
 
-   .navbar {
+.navbar {
      margin-bottom: 0;
      background-color: #2d2d30;
      border: 0;
      font-size: 12px !important;
      letter-spacing: 4px;
      opacity:0.9;
-   }
-
-   .navbar li a, .navbar .navbar-brand {
-     color: #d5d5d5 !important;
-   }
-
-   .page-links a{
-     color:#d5d5d5 !important;
-   }
-
-   .navbar-nav li a:hover {
-     color: #fff !important;
-   }
-
-   .navbar-nav li.active a {
-     color: #fff !important;
-     background-color:#242426 !important;
-   }
-
-   .navbar-toggle a:hover {
-     background-color:#242426;
-   }
-   
-   /*Projects*/
-   .projects-container {
-    background-color:#d3d3d3;
-    color: #323232;
-   }
-
-    .projects{
-     border-color: darkgray;
-     border-width: 0.5px;
-     border-style: solid;
-   }
-
-    .project-link a{
-       color: #2d2d30;
     }
 
-   .thumbnails{
-     margin-top:20px;
+.navbar li a, .navbar .navbar-brand {
+     color: #d5d5d5 !important;
+    }
+
+.page-links a{
+     color:#d5d5d5 !important;
+    }
+
+.navbar-nav li a:hover {
+     color: #fff !important;
+    }
+
+.navbar-nav li.active a {
+     color: #fff !important;
+     background-color:#242426 !important;
+    }
+
+.navbar-toggle a:hover {
+     background-color:#242426;
+    }
+   
+   /* PROJECTS */
+.projects-container {
+     background-color:#d3d3d3;
+     color: #323232;
+    }
+
+.projects{
+     border-color: darkgray;
+     border-width: 0.1px;
+     border-style: solid;
+    }
+
+.project-link a{
+     color: #2d2d30;
+    }
+
+.thumbnails{
+     margin-top: 20px;
      width: 359px;
      height: 206px;
      border-radius: 10px;
+     border-color: #e4e4e4;
+     border-width: 3px;
+     border-style: solid;
+    }
+
+   /* FLIP PROJECTS */
+  
+.flip {
+     width: 359px;
+     height: 206px;
+     margin: 0 auto;
+     perspective: 1000;
+     transform-style: preserve-3d;
+     -webkit-transform-style: preserve-3d;
+     -webkit-perspective: 1000;
+    }
+
+.flip img {
+     width: 359px;
+     height: 206px;
+     border-radius: 10px;
+    }
+.flip .back {
+     margin-bottom: -15px;
+     background: #d3d3d3;
+     color: #323232;
+     text-align: center;
+     border-radius: 10px;
+     border-color: #e4e4e4;
+     border-width: 3px;
+     border-style: solid;
+    }
+
+.flip .front {
+     margin: -25px auto;
+    }
+
+
+/* SOCIAL PROJECTS */
+
+.social-projects [class*="fa fa-"] {
+     background-color: #e4e4e4;
+     border-radius: 30px;
+     color: #333333;
+     display: inline-block;
+     height: 35px;
+     line-height: 35px;
+     margin: auto 3px;
+     margin-bottom: 0px;
+     width: 35px;
+     font-size: 30px;
+     text-align: center;
    }
 
-   .description{
+.social-projects .fa-github:hover, .fa-play-circle:hover { 
+     background-color: #333333;
+     color: #e4e4e4;
+    }
+
+.description{
      border-color: gray;
      border-width: 0.5px;
      border-style: solid;
-   }
+    }
 
-   .banner{
+.banner{
      margin-top: 0px;
      background-color: lightgray;
-   }
+    }
 
-   .navbar{
+.navbar{
      opacity:0.9;
-   }
+    }
 
-
-   .author{
+.author{
      color: lightgray;
-   }
+    }
 
 
-  /*Contact Form*/
-   .form-control:focus{
+ /* CONTACT FORM */
+
+.form-control:focus{
      border: 0px solid;
      -webkit-box-shadow: none;
      box-shadow: none;
      border-bottom: 2px solid #ccc !important; 
      color:#d3d3d3 !important;
-   }
+    }
 
-   .form-control{
-    border: 0px solid;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 2px solid #ccc !important; 
-   }
+.form-control{
+     border: 0px solid;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     border-bottom: 2px solid #ccc !important; 
+    }
 
-   .center-div{
-    margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
-   }
-
+.center-div{
+     margin: 0 auto;
+     width:80% 
+    }
    
-   .center {
-    text-align:center;
-   }
+.center {
+     text-align:center;
+    }
 
-   .center form {
-    display:inline-block;
-   }
+.center form {
+     display:inline-block;
+    }
 
-  /*remove blue glow color - Contact form*/
+  /* REMOVE BLUE GLOW COLOR - CONTACT FORM */
 
-  input[type="text"], textarea { 
+input[type="text"], textarea { 
     color:#cccccc;
     outline: none; 
     border: 0px solid;
@@ -128,38 +184,38 @@
     box-shadow:none !important; 
     -webkit-box-shadow: none;
     -moz-box-shadow: none !important;
-  } 
+    } 
 
-  .input-group {
-    color:#d3d3d3 !important;
-  }
+.input-group {
+     color:#d3d3d3 !important;
+    }
   
-  label {
-    color:#d3d3d3 !important;
-  }
+label {
+     color:#d3d3d3 !important;
+    }
 
-  .btn {
-    background-color:#d3d3d3 !important;
-    color: #323232 !important;
-    margin-left: 90px !important;
-  }
+.btn {
+     background-color:#d3d3d3 !important;
+     color: #323232 !important;
+     margin-left: 90px !important;
+    }
 
+   /* SOCIAL */
 
-/*Social*/
 .social [class*="fa fa-"] {
-    background-color: #333;
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    margin: auto 3px;
-    width: 40px;
-    font-size: 30px;
-    text-align: center;
-}
+     background-color: #333;
+     border-radius: 30px;
+     color: #fff;
+     display: inline-block;
+     height: 40px;
+     line-height: 40px;
+     margin: auto 3px;
+     width: 40px;
+     font-size: 30px;
+     text-align: center;
+    }
 
 .fa-github:hover, .fa-free-code-camp:hover, .fa-codepen:hover { 
-    background-color: #ffffff; 
-    color: #333333;
-}
+     background-color: #ffffff; 
+     color: #333333;
+    }
