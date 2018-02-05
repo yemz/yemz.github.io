@@ -70,6 +70,15 @@ body{
      border-style: solid;
     }
 
+.last {
+    padding-top: 35px;
+    padding-bottom: 69.5px;
+}
+
+.lastflip {
+    padding-top: 32px;
+}
+
    /* FLIP PROJECTS */
   
 .flip {
