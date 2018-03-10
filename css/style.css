@@ -43,7 +43,147 @@ body{
 .navbar-toggle a:hover {
      background-color:#242426;
     }
-   
+
+   /*SKILLS*/
+.skills-categories {
+   word-spacing: 90px;
+   margin: 0 auto;
+   margin-left: 70px;
+   position: relative;
+}
+
+.skills-subcat {
+   width: 100%;
+   clear:both;
+   position: relative;
+   float: right;
+   position: absolute;
+   text-align:center;
+}
+
+.skills-basic {
+   font-size: 13px;
+   width: 80%;
+   display:inline;
+}
+
+.skills {
+   width: 500px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   position: relative;
+   overflow-x: hidden;
+}
+
+.skills > p {
+   font-size: 14px;
+   font-weight: 700;
+   margin: 0;
+}
+
+.skills:before {
+   width: 100%;
+   height: 3px;
+   content: "";
+   display: block;
+   position: absolute;
+   background: #959595;
+   bottom: 0;
+}
+
+.skill-bar{
+   width: 100%;
+   height: 3px;
+   background: #7EC0EE;
+   display: block;
+   position: relative;
+}
+
+.skill-bar span {
+   position: absolute;
+   top:-20px;
+   padding: 0;
+   font-size: 14px;
+   padding: 1px 0px;
+   font-weight: 700;
+}   
+
+.skill-bar {
+   position: relative;
+}
+
+.skill-cplusplus {
+   width: 70%;
+}
+
+.skill-cplusplus .skill-count1{
+   right: 0;
+}
+
+.skill-java {
+   width: 70%;
+}
+
+.skill-java .skill-count2{
+   right: 0;
+}
+
+.skill-html {
+   width: 95%;
+}
+
+ .skill-html .skill-count3{
+   right: 0;
+}
+
+.skill-css {
+   width: 85%;
+}
+
+ .skill-css .skill-count4{
+   right: 0;
+}
+
+.skill-javascript {
+   width: 65%;
+}
+
+.skill-javascript .skill-count5{
+   right: 0;
+}
+
+.skill-angular {
+   width: 45%;
+}
+
+.skill-angular .skill-count6{
+   right: 0;
+}
+
+.skill-backend {
+   width: 55%;
+}
+
+.skill-backend .skill-count7{
+   right: 0;
+}
+
+.skill-mongo {
+   width: 50%;
+}
+
+.skill-mongo .skill-count8{
+   right: 0;
+}
+
+.skill-aws {
+   width: 50%;
+}
+
+.skill-aws .skill-count9{
+   right: 0;
+}
+
    /* PROJECTS */
 .projects-container {
      background-color:#d3d3d3;
@@ -76,8 +216,9 @@ body{
 }
 
 .lastflip {
-    padding-top: 34px;
+    padding-top: 32px;
 }
+
 
    /* FLIP PROJECTS */
   
