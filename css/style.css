@@ -38,8 +38,8 @@ body{
   /* background-image: url(images/bg-bio.jpg); */
   
   /* Add the blur effect */
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   
   /* Height and Width*/
   height: 100%;
