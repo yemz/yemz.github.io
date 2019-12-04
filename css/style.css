@@ -64,8 +64,7 @@ body{
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
-  position: absolute;
-  margin-top: 200px;
+  
  
   left: 50%;
   transform: translate(-50%, -50%);
