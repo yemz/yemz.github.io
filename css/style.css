@@ -468,7 +468,9 @@ label {
 #gallery div#img5:hover,
 #gallery div#img6:hover,
 #gallery div#img7:hover,
-#gallery div#img8:hover {
+#gallery div#img8:hover,
+#gallery div#img9:hover,
+#gallery div#img10:hover {
 	z-index: 999;
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
@@ -542,18 +544,34 @@ label {
 }
 			
 #gallery #img7 {
-	-webkit-transform: rotate(20deg);
-	-moz-transform: rotate(20deg);
-	top: 530px;
-	right: 140px;
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	top: 480px;
+	right: 170px;
 	z-index:6;
 }
 			
 #gallery #img8 {
 	-webkit-transform: rotate(20deg);
 	-moz-transform: rotate(20deg);
-	top: 560px;
-	right: 320px;
+	top: 620px;
+	right: 480px;
 	z-index:6;
 }
-			
+
+#gallery #img9 {
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	top: 220px;
+	right: 380px;
+	z-index:6;
+}
+
+#gallery #img10 { 
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	top: 650px;
+	left: 190px;
+	z-index:6;
+}
+		
